@@ -9,11 +9,13 @@
 ---
 ## 學習重點
 -     了解why,how
--     增強表達想法的能力
-      透過新程式語言結構擴大開發思維          
--     增進選擇合適程式語言的能力
-        熟悉的程式語言不一定適合本專案開發
-        如果可以熟悉更廣的程式語言結構,即可更好的選擇具有最能解決問題的語言
+- 增強表達想法的能力
+
+    透過新程式語言結構擴大開發思維          
+-   增進選擇合適程式語言的能力:
+
+    熟悉的程式語言不一定適合本專案開發
+    如果可以熟悉更廣的程式語言結構,即可更好的選擇具有最能解決問題的語言
 -     增強學習新語言的能力
 -     理解程式語言如何被實作而帶來的好處
 -     更有效使用已知的程式語言
@@ -29,5 +31,66 @@
 - 網頁軟體
     由多種語言支持:HTML,JavaScript,CSS
 ---
-
+## AI 推進之父
+    Hicton
+---
+## 程式語言評估準則
+- 可讀性(Readability):程式被閱讀與理解的難易度
+    - 在軟體生命週期中,維護成本>開發成本,而決定性關鍵在於可讀性
+    - 整體簡潔(Overall Simplicity):
+        - 特徵多樣性(feature multuplicity)最小化 
+        - 運算符重載(operator overloading)最小化:一個運算符號有多個含意
+        - 正交性(Orthogonality):透過副作用判斷程式的正交性 
+        - 資料型態(Data Type):足夠的事先定義的資料型態
+        - 語法設計(Syntax Design): 特殊字構成複合敘述的方法
+- 可寫性(Writability):語言被拿來創建程式的難易度
+    - 簡潔與正交性(Simplicity and Orthogonality)
+    - 表現力(Expressivity)
+- 可靠性(Reliability):符合規範(按照標準執行)
+    - 型態檢查(type checking)
+    - 例外處理(Exception Handing)
+    - 別名使用(Aliasing)
+    - 可讀性與可寫性(Readability and Writability)
+- 成本(Cost):最終總成本
+    - 訓練程式設計者使用該語言
+    - 使用該語言撰寫程式(部分取決於特定應用程式的接近程度)
+    - 執行程式
+--- 
+## 其他評估準則
+- 可攜性(Portability):遷移不同系統,設備的難易度
+- 通用性(Generality):適用於廣泛應用程式
+- 明確性(Well-Definedness):語言官方定義的完整性與精確性
+---
+## von Neumann Architecture
+- 資料與城市都儲存在記憶體
+- 執行指令的中央處理器
+- 指令與資料必須從記憶體傳輸到CPU
+- CPU中的運算結果必須移回記憶體
+---
+    問題>記憶體>CPU>記憶體>答案   
+---
+## 程式設計的方法論
+- 1950-1960
+    - 關係機器的效率,低階機器語言
+- 1960-1970
+    - 硬體成本降低,程式設計者成本增加
+    - 人員效率變得很重要,更好的可讀性與控制結構
+    - 結構化程式設計(Structured Programming)
+    - 程序導向(Procedure-Oriented)
+- 1970-now
+    - 程序導向到資料導向(Data-oriented)
+    - 資料抽象化(Data Abstraction)
+- 1980-now
+    - 物件導向程式設計(Object-Oriented Programming)
+    - 資料抽象化(Data Abstraction)+繼承(Inheritance)+多型態(Polymorphism)
+---
+## 程式語言分類
+- 指令式(Imperative)
+- 函式
+- 組合式 
+---
+## 程式語言設計的取捨
+- 可靠性與執行成本
+- 可讀性與可寫性
+- 可寫性(靈活度)與可靠性
 
